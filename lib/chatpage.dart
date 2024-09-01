@@ -14,7 +14,7 @@ class chatpage extends StatefulWidget {
 
 class _chatpageState extends State<chatpage> {
   void send(String x1) async {
-    final apiKey = "AkjkeijlijhfieBhjwoLOIOwanwdkKKDsawpL";
+    final apiKey = "";
 
     try {
       final model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: apiKey);
